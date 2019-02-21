@@ -1,0 +1,496 @@
+body{
+    width: 100%;
+    height:100%;
+}
+.top{
+    width: 7.5rem;
+    height: 4.78rem;
+    background: #2fccf9;
+    margin: 0 auto;
+}
+.container{
+    width: 7.02rem;
+    height: auto;
+    min-height: 1px;
+    margin: 0 auto;
+    background: #3c763d;
+}
+.title{
+    width: 7.02rem;
+    height: 0.61rem;
+    /*background: #3c763d;*/
+    margin: 0 auto;
+    position: relative;
+}
+.title .left{
+    width: 0.5rem;
+    height: 0.5rem;
+    margin:auto 0;
+    float: left;
+}
+.title p{
+    width: 2rem;
+    height: 0.34rem;
+    float: left;
+    margin: 0 auto;
+    /*background: #6f6d6d;*/
+    font-size: 0.36rem;
+    font-weight: normal;
+    font-stretch: normal;
+    color: #ffffff;;
+    position: absolute;
+    top:0;
+    left:2.81rem;
+}
+.title .right{
+    width: 0.5rem;
+    height: 0.5rem;
+    background: white;
+    border-radius: 50%;
+    float:right;
+}
+.right img{
+    width: 0.28rem;
+    height: 0.28rem;
+    margin:0.08rem;
+}
+.smalltitle{
+    width:7.02rem;
+    height: 1.2rem;
+    /*background: bisque;*/
+    margin: 0 auto;
+    position: relative;
+}
+.smalltitle p{
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #ffffff;
+    /*float: left;*/
+}
+.smalltitle .dizhi{
+    width: 0.6rem;
+    height: 0.3rem;
+    border-radius:  0.105rem;
+    background: transparent;
+    border: 0.01rem solid white;
+    position: absolute;
+    left:1.27rem;
+    top:0.005rem;
+    font-size: 0.18rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #ffffff;
+    line-height: 0.3rem;
+    text-align: center;
+}
+.smalltitle .tirth{
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #ffffff;
+    opacity: 0.9;
+}
+.smalltitle .fouth{
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #ffffff;
+    opacity: 0.7;
+}
+.tirtitle{
+    width: 7.02rem;
+    height: 1.61rem;
+    background:  #fffdf3;
+    margin: 0 auto;
+    border-radius: 0.1rem;
+    position: relative;
+}
+.time{
+    width: 2rem;
+    height: 0.29rem;
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #010101;
+    opacity: 0.85;
+    position: absolute;
+    left:0.12rem;
+    top:0.13rem;
+}
+.yaoqiu{
+    width: 3rem;
+    height: 0.18rem;
+    font-size: 0.18rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #fe3030;
+    opacity: 0.91;
+    position: absolute;
+    left:0.12rem;
+    top:0.52rem;
+}
+.jinkuai{
+    width: 3rem;
+    height: 0.24rem;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #fe3030;
+    opacity: 0.9;
+    position: absolute;
+    left:4.53rem;
+    top:0.31rem;
+}
+.dian{
+    width: 6.64rem;
+    height: 0.04rem;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #070707;
+    opacity: 0.3;
+    position: absolute;
+    left: 0.55rem;
+    top:0.75rem;
+}
+.zhifu{
+    width: 1.5rem;
+    height: 0.28rem;
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 0.85;
+    position: absolute;
+    left:0.12rem;
+    top:1.16rem;
+}
+.zhifu2{
+    width: 1rem;
+    height: 0.23rem;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #fe3030;
+    opacity: 0.9;
+    position: absolute;
+    left:5.77rem;
+    top:1.18rem;
+}
+.mid{
+    width: 7.02rem;
+    height: 5.07rem;
+    margin: 0 auto;
+    position: relative;
+    top: -0.37rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.02rem 0.16rem 0 rgba(167, 166, 166, 0.56);
+    border-radius: 0.15rem;
+}
+.biaoti{
+    width: 2.2rem;
+    height: 0.28rem;
+    font-size: 0.3rem;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 0.86;
+    font-weight: bolder;
+    position: absolute;
+    left:0.11rem;
+    top:0.24rem;
+}
+.sheng{
+    width: 6.64rem;
+    height: 0.04rem;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #070707;
+    opacity: 0.3;
+    position: absolute;
+    left:0.55rem;
+    top:0.62rem;
+}
+.xiangqing{
+    width: 100%;
+    height: 0.9rem;
+    /*background: #5e5e5e;*/
+    position: relative;
+    top:1.15rem;
+    margin-top: 0.25rem;
+}
+.dangao{
+    width: 0.96rem;
+    height: 0.9rem;
+    background-color: #ffffff;
+    float: left;
+}
+.timu{
+    width: 1.2rem;
+    height: 0.23rem;
+    font-size: 0.24rem;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #070707;
+    float: left;
+    font-weight: bolder;
+    position: absolute;
+    top: 0.3rem;
+    left:1.37rem;
+}
+.jian{
+    float: left;
+    width: 0.39rem;
+    height: 0.39rem;
+    position: absolute;
+    left:3.22rem;
+    top:0.22rem;
+}
+.num{
+    float: left;
+    font-size: 0.36rem;
+    font-weight: bolder;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #1d1d1d;
+    opacity: 0.8;
+    position: absolute;
+    left:3.74rem;
+    top:0.18rem;
+}
+.jia{
+    float: left;
+    width: 0.39rem;
+    height:0.39rem;
+    position: absolute;
+    left: 4.13rem;
+    top:0.22rem;
+}
+.price{
+    width: 1.02rem;
+    height: 0.22rem;
+    font-size: 0.3rem;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #f90d0d;
+    font-weight: bold;
+    float: left;
+    position: absolute;
+    right:0.4rem;
+    top:0.25rem;
+}
+.lue{
+    width: 6.64rem;
+    height: 0.04rem;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #070707;
+    opacity: 0.3;
+    position: absolute;
+    left:0.55rem;
+    top:3.28rem;
+}
+.hongbao{
+    width: 0.6rem;
+    height: 0.27rem;
+    font-size: 0.28rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #070707;
+    opacity: 0.91;
+    position: absolute;
+    left:0.12rem;
+    top:3.7rem;
+}
+.manjian{
+    width: 1.68rem;
+    height: 0.27rem;
+    font-size: 0.28rem;
+    font-weight: bolder;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #fa0707;
+    position: absolute;
+    right:0.09rem;
+    top:3.75rem;
+}
+.hao{
+    width: 6.64rem;
+    height: 0.04rem;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #070707;
+    opacity: 0.3;
+    position: absolute;
+    left:0.55rem;
+    top:4.13rem;
+}
+.xiaoji{
+    width: 0.6rem;
+    height: 0.27rem;
+    font-size: 0.28rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #070707;
+    opacity: 0.92;
+    position: absolute;
+    left:0.09rem;
+    top:4.51rem;
+}
+.money{
+    width: 1.25rem;
+    height: 0.26rem;
+    font-size: 0.36rem;
+    font-weight: bolder;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #f80b0b;
+    position: absolute;
+    right:0.5rem;
+    bottom: 0.29rem;
+}
+.bottom{
+    width: 7.02rem;
+    height: 1.78rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.01rem 0.16rem 0
+    rgba(200, 198, 197, 0.7);
+    border-radius: 0.15rem;
+    margin: 0 auto;
+    position: relative;
+}
+.dingcan{
+    width: 1.3rem;
+    height: 0.29rem;
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #070707;
+    opacity: 0.92;
+    position: absolute;
+    left:0.1rem;
+    top:0.3rem;
+}
+.kouwei{
+    width: 1.5rem;
+    height: 0.29rem;
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #070707;
+    opacity: 0.47;
+    position: absolute;
+    left:5.08rem;
+    top:0.34rem;
+}
+.xiala{
+    width: 0.3rem;
+    height: 0.15rem;
+    position: absolute;
+    right:0.1rem;
+    top:0.48rem;
+}
+.diandian{
+    width: 6.64rem;
+    height: 0.04rem;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #070707;
+    opacity: 0.3;
+    position: absolute;
+    left:0.5rem;
+    top:0.76rem;
+}
+.canju{
+    width: 1.23rem;
+    height: 0.29rem;
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #070707;
+    opacity: 0.92;
+    position: absolute;
+    left:0.1rem;
+    top:1.2rem;
+}
+.fenshu{
+    width: 0.9rem;
+    height: 0.28rem;
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #070707;
+    opacity: 0.47;
+    position: absolute;
+    left:6.09rem;
+    top:1.2rem;
+}
+.xiala2{
+    width: 0.3rem;
+    height: 0.15rem;
+    position: absolute;
+    right:0.1rem;
+    bottom:0.3rem;
+}
+.tap{
+    width: 100%;
+    height: 0.98rem;
+    box-shadow: 0 0.02rem 0.02rem 0
+    rgba(167, 166, 166, 0.22),
+    0 -0.02rem 0.02rem 0
+    rgba(167, 166, 166, 0.22);
+    position: fixed;
+    margin-top: 0.5rem;
+}
+.mon{
+    position: absolute;
+    left:0.42rem;
+    top:0.35rem;
+}
+.RMB{
+    width: 1.3rem;
+    height: 0.26rem;
+    font-size: 0.36rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #5ccbfc;
+    position: absolute;
+    left:0.9rem;
+    top:0.3rem;
+}
+.queren{
+    width: 2.12rem;
+    height: 0.6rem;
+    background-color: #4acbfb;
+    border-radius: 0.28rem;
+    border: solid 0.04rem #9dd8fd;
+    position: absolute;
+    right: 0.22rem;
+    top:0.2rem;
+}

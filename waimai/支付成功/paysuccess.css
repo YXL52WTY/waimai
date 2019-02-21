@@ -1,0 +1,41 @@
+.body{
+    position: relative;
+}
+.big{
+    background-image: url("./img/形状5.png");
+    background-size: 100% 100%;
+    width: 100%;
+    height:9.12rem;
+
+}
+.return{
+    width: 2.21rem;
+    height: 0.84rem;
+    background-image: linear-gradient(81deg,
+    #d64620 0%,
+    #e77624 100%);
+    border-radius: 0.42rem;
+    position: absolute;
+    left:1.43rem;
+    bottom: 2.39rem;
+}
+.og{
+    width: 2.21rem;
+    height: 0.84rem;
+    background-image: linear-gradient(90deg,
+    #faf701 0%,
+    #fbad05 100%);
+    border-radius: 0.42rem;
+    position: absolute;
+    right:1.43rem;
+    bottom: 2.39rem;
+}
+.og a{
+    display: block;
+    margin: 0.17rem 0.35rem;
+}
+.return a{
+    display: block;
+    margin: 0.17rem 0.35rem;
+
+}

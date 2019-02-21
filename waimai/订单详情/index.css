@@ -1,0 +1,245 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 7.02rem;
+    height: auto;
+    min-height: 1px;
+    margin: 0 auto;
+    background: #3c763d;
+}
+#header{
+    width: 7.5rem;
+    height: 0.91rem;
+    background: #2fccf9;
+    margin: 0 auto;
+}
+.title{
+    width: 1.6rem;
+    height: 0.4rem;
+    /*background: #cccccc;*/
+    margin: 0.15rem auto;
+    font-size: 0.36rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #ffffff;
+    text-align: center;
+}
+#header>img{
+    width: 0.9rem;
+    height: 0.13rem;
+    margin: auto;
+}
+#section>img.top{
+    width: 2.09rem;
+    height: 0.56rem;
+    margin-top: 0.6rem;
+}
+.cake{
+    width: 6.8rem;
+    height: 1.76rem;
+    /*background: #2fccf9;*/
+    margin: 0.45rem auto;
+}
+
+.cake .one{
+    width: 3.22rem;
+    height: 1.74rem;
+    box-shadow: 0 0.02rem 0.13rem 0 rgba(206, 206, 206, 0.7);
+    border-radius: 0.2rem;
+    /*background: red;*/
+    float: left;
+    margin-left: 0.1rem;
+    border: 1px solid #cccccc;
+    position: relative;
+}
+.cake .two{
+    width: 3.22rem;
+    height: 1.74rem;
+    box-shadow: 0 0.02rem 0.13rem 0 rgba(206, 206, 206, 0.7);
+    border-radius: 0.2rem;
+    /*background: red;*/
+    float: right;
+    margin-right:0.1rem;
+    border: 1px solid #ccc;
+    position: relative;
+}
+.one img{
+    width: 1.42rem;
+    height: 1.41rem;
+    position: absolute;
+    bottom: 0.55rem;
+    left:0.06rem;
+}
+.two img{
+    width:1.41rem;
+    height: 1.41rem;
+    position: absolute;
+    bottom: 0.55rem;
+    left:0.06rem;
+}
+.one p.big{
+    width: 1.45rem;
+    height: 0.29rem;
+    font-size: 0.29rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #010101;
+    opacity: 0.8;
+    position: absolute;
+    bottom: 0.66rem;
+    right:0.13rem;
+}
+.one p.small{
+    width: 2.2rem;
+    height: 0.26rem;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 0.6;
+    position: absolute;
+    bottom: 0.25rem;
+    right:0.13rem;
+}
+.two p.big{
+    width: 1.45rem;
+    height: 0.29rem;
+    font-size: 0.29rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #010101;
+    opacity: 0.8;
+    position: absolute;
+    bottom: 0.66rem;
+    right:0.13rem;
+}
+.two p.small{
+    width: 2.2rem;
+    height: 0.26rem;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 0.6;
+    position: absolute;
+    bottom: 0.25rem;
+    right:0.13rem;
+}
+.mid>img.mid{
+    width: 2.09rem;
+    height: 0.56rem;
+    margin-top: 0.4rem;
+}
+.content{
+    width: 6.99rem;
+    height: 1.93rem;
+    box-shadow: 0 0.01rem 0.05rem 0
+    rgba(89, 90, 90, 0.2),
+    0 -0.01rem 0.08rem 0
+    rgba(89, 90, 90, 0.3);
+    border-radius: 0.25rem;
+    border: 1px solid white;
+    position: relative;
+    margin: 0.3rem auto;
+}
+.content img.dangao{
+    width: 1.52rem;
+    height: 1.47rem;
+    margin-top:0.23rem;
+    margin-left: 0.2rem;
+}
+.content p.biaoti{
+    position: absolute;
+    top: 0.32rem;
+    left: 2.2rem;
+    width: 2.72rem;
+    height: 0.29rem;
+    font-size: 0.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #6a6767;
+}
+.content p.date{
+    width: 2rem;
+    height: 0.17rem;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #6a6767;
+    opacity: 0.67;
+    position: absolute;
+    top: 0.7rem;
+    left:2.2rem
+}
+.content p.ex{
+    width: 2.84rem;
+    height: 0.05rem;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 0.51;
+    position: absolute;
+    top: 0.88rem;
+    left:2.2rem
+}
+.content p.zeng{
+    width: 2rem;
+    height: 0.23rem;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
+    color:rgba(0,0,0,.7);
+    opacity: 0.8;
+    position: absolute;
+    bottom:0.38rem ;
+    left:2.2rem;
+}
+.content img.agin{
+    width: 1.31rem;
+    height: 0.4rem;
+    position: absolute;
+    right:0.09rem;
+    bottom: 0.65rem;
+}
+.bottom{
+    width: 7.5rem;
+    height: 1.1rem;
+    /*background: #cccccc;*/
+    box-shadow: 0 0.01rem 0.16rem 0 rgba(196, 194, 194, 0.53);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:0 auto;
+}
+.bottom>a>img.tirth{
+    width: 1rem;
+    height: 1rem;
+    float: left;
+}
+.bottom>a>img.second{
+    width: 0.57rem;
+    height: 0.57rem;
+    float: left;
+}
+.bottom>a>img.fouth{
+    width: 0.57rem;
+    height: 0.57rem;
+    float: left;
+}
+.bottom>a>img.first{
+    width: 0.57rem;
+    height: 0.57rem;
+    float: left;
+}
