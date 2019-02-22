@@ -130,11 +130,35 @@ span.title{
     /*background: blue;*/
     margin: 0.46rem auto;
 }
-.wayContent p.logo{
+.logo1{
+    color: #ffe023;
     float: left;
     font-family: iconfont;
     font-size: 0.48rem;
-    color:blue;
+}
+.logo2{
+    color:rgba(90, 158, 247, 0.58);
+    float: left;
+    font-family: iconfont;
+    font-size: 0.48rem;
+}
+.logo3{
+    color: #0eff07;
+    float: left;
+    font-family: iconfont;
+    font-size: 0.48rem;
+}
+.logo4{
+    color: #cccccc;
+    float: left;
+    font-family: iconfont;
+    font-size: 0.48rem;
+}
+.logo5{
+    color: #ffb105;
+    float: left;
+    font-family: iconfont;
+    font-size: 0.48rem;
 }
 .wayContent p.desc{
     float: left;
